@@ -20,4 +20,8 @@ print stuff[-1] #whoa! fancy
 print stuff.pop()
 print ' '.join(stuff) # append ' ' between all item
 print '#'.join(stuff[3:5]) # append '#' between 3rd item and 4th item
+stuff.insert(0,'First')
+stuff.insert(2,'Second')
+#stuff.sort()
+stuff.remove('First')
 print stuff
